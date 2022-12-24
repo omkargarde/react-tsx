@@ -1,11 +1,15 @@
 
 import './App.css'
+import AppHeader from './components/AppHeader'
 
 function App() {
   
 
   return (
-    <h1 className="before:bg-black-100 text-2xl">blank</h1>
+    <>
+    <AppHeader></AppHeader>
+    <h1 className="text-2xl">blank</h1>
+    </>
   )
 }
 
